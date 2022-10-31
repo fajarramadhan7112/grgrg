@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Forumulir Pendaftaran Rawat Inap/ONE DAT CARE</title>
+</head>
+
+<style>
+    .dalem {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 100px;
+        padding: 10px;
+    }
+
+    .kotak {
+        width: 80px;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 0;
+        position: right;
+    }
+
+    .kotak1 {
+        width: 30px;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 0;
+        position: right;
+    }
+
+
+    input.untukInput{
+        border-bottom: 3px solid rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+    }
+
+    ol.a {
+        list-style-type: upper-alpha;
+
+    }
+
+    th {
+        text-align: right;
+    }
+
+
+    table {
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <form action="" method="GET" enctype="multipart">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="logormhskt.jpg">
+                </div>
+                <div class="col-sm-4">
+                    <br>
+                    <br>
+                    <p style="text-align: right;">RM.01</p>
+                    <B>
+                        <p style="text-align: right;">PENDAFTARAN RAWATINAP / ONE DAY CARE</p>
+                    </B>
+                    <P style="text-align: right;">Semua bagian harus diisi</P>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="dalem">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <br>
+                                <p> No. Register : </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <br>
+                                <center>
+                                    <p>No Rekam Medis</p>
+                                </center>
+                                <center>
+                                    <p class="kotak"></p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ol class="a">
+                        <b>
+                            <li>INDENTITAS PASIEN (bagian ini harus lengkap dan mohon diisi pasien)</li>
+                        </b>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <p> Nama Depan (sesuai dengan KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="55" placeholder="" name="Input" />
+                                    <input type="checkbox" name="Jenis kelamin">Laki-laki <input type="checkbox"
+                                        name="Jenis Kelamin">Perempuan
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p> Nama Ibu Kandung (sesuai KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="85" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Tempat & Tanggal Lahir
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="30" placeholder="" name="Input" />
+                                    Agama
+                                    : <input class="untukInput" type="text" size="41" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Alamat Rumah (sesuai KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="30" placeholder="" name="Input" />
+                                    No
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                    RT
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                    RW
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Kelurahan
+                                    : <input class="untukInput" type="text" size="30" placeholder="" name="Input" />
+                                    Kec
+                                    : <input class="untukInput" type="text" size="34" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Kota/wilayah
+                                    : <input class="untukInput" type="text" size="28" placeholder="" name="Input" />
+                                    Telepon
+                                    : <input class="untukInput" type="text" size="29" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Email
+                                    : <input class="untukInput" type="text" size="30" placeholder="" name="Input" />
+                                    HP
+                                    : <input class="untukInput" type="text" size="34" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Pendidikan terakhir </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>Pekerjaan/Bagian </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>Alamat Kantor </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>Warga Negara </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>Pasien yang pernah dirawat di RS Royal Progress Tanggal </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="23" placeholder="" name="Input" />
+                                    Bulan
+                                    : <input class="untukInput" type="text" size="15" placeholder="" name="Input" />
+                                    Tahun
+                                    : <input class="untukInput" type="text" size="20" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <b>
+                            <li>INDENTITAS PENANGGUNG JAWAB (bagian ini mohon diisi penanggung jawab)</li>
+                        </b>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <p> Nama Depan (sesuai KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Nama Ibu Kandung (sesuai KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Alamat Rumah (sesuai KTP)
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="23" placeholder="" name="Input" />
+                                    No
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                    RT
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                    RW
+                                    : <input class="untukInput" type="text" size="10" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Kelurahan
+                                    : <input class="untukInput" type="text" size="33" placeholder="" name="Input" />
+                                    Kec
+                                    : <input class="untukInput" type="text" size="30" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Kota/wilayah
+                                    : <input class="untukInput" type="text" size="29" placeholder="" name="Input" />
+                                    Telepon
+                                    : <input class="untukInput" type="text" size="27" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col-sm-8">
+                                    Email
+                                    : <input class="untukInput" type="text" size="33" placeholder="" name="Input" />
+                                    HP
+                                    : <input class="untukInput" type="text" size="35" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <p> Alamat Kantor
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Pekerjaan/Bagian
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Hubungan dengan pasien sebagai
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <b>
+                            <li>KELAS PERAWATAN YANG DIMINTA (bagian ini diisi administrasi)</li>
+                        </b>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <p> Kelas Perawatan
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="20" placeholder="" name="Input" />
+                                    Kamar
+                                    : <input class="untukInput" type="text" size="20" placeholder="" name="Input" />
+                                    Lantai
+                                    : <input class="untukInput" type="text" size="17" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Tanggal Masuk
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="20" placeholder="" name="Input" />
+                                    Jam
+                                    : <input class="untukInput" type="text" size="20" placeholder="" name="Input" />
+                                    Dokter Pengirim
+                                    : <input class="untukInput" type="text" size="9" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> DPJP
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    Asal Pasien (pilih Satu)
+                                    <br>
+                                    <input type="checkbox" name="Jenis kelamin">IGD <input type="checkbox"
+                                        name="Jenis Kelamin">IRJ
+                                </div>
+                                <div class="col-sm-4">
+                                    Jaminan Kesehatan
+                                    <br>
+                                    <input type="checkbox" name="Jenis kelamin"> GAKIN/SKTM
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> ASKES
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> JAMSOSTEK
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Lainnya
+                                </div>
+                                <div class="col-sm-6">
+                                    Rujukan
+                                    <br>
+                                    <input type="checkbox" name="Jenis kelamin"> Dr. Royal Progress
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Dr. Kerjasama/Regular
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Rumah Sakit
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Bidan
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Perusahaan Tekanan
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Yayasan
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                    <br>
+                                    <input type="checkbox" name="Jenis Kelamin"> Progress
+                                    : <input class="untukInput" type="text" size="60" placeholder="" name="Input" />
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <p> Cara Pembayaran
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" name="Jenis Kelamin"> Pribadi
+                                    <input type="checkbox" name="Jenis Kelamin"> Jaminan
+                                    : <input class="untukInput" type="text" size="84" placeholder="" name="Input" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Kode Perusahaan / asuransi
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Surat Jaminan
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" name="Jenis Kelamin"> Ya
+                                    <input type="checkbox" name="Jenis Kelamin"> Tidak
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p> Surat Rujukan
+                                    </p>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" name="Jenis Kelamin"> Ya
+                                    <input type="checkbox" name="Jenis Kelamin"> Tidak
+                                </div>
+                            </div>
+                        </div>
+                        <b>
+                            <li>SURAT PERNYATAAN PERSETUJUAN PERATURAN RUMAH SAKIT DAN HAK PASIEN</li>
+                        </b>
+                        <div class="container">
+                            <table>
+                                <tr>
+                                    <td>Harus ACC no 1 & 2</td>
+                                    <th>
+                                        Jakarta
+                                        : <input class="untukInput" type="text" size="21" placeholder=""
+                                            name="Input" />
+                                        <p>Tanda tangan penanggung jawab pasien</p>
+                                    </th>
+                                </tr>
+                            </table>
+                            <div class="row">
+                                <div class="col">
+                                    <center>
+                                        <p class="kotak1"></p>
+                                    </center>
+                                </div>
+                                <div class="col-11">
+                                    peraturan rawat inap / one day
+                                    <br>
+                                    core
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <p>(.................................)</p>
+                                                <p>Nama Lengkap</p>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    acc Saya sudah membaca dan menyetujui
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <center>
+                                        <p class="kotak1"></p>
+                                    </center>
+                                </div>
+                                <div class="col-11">
+                                    Hak dan Kewajiban Pasien Rawat
+                                    <br>
+                                    inap / one day
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <p>tanda tangan petugas admin</p>
+                                                <p>(.................................)</p>
+                                                <p>Nama Lengkap</p>
+                                            </th>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        Distribusi :
+                                    </div>
+                                    <div class="col-10">
+                                        Putih : Rekam Medis
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                    </div>
+                                    <div class="col-10">
+                                        Merah : Kanit
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                    </div>
+                                    <div class="col-10">
+                                        Biru : Administrasi
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
